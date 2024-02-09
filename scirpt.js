@@ -33,3 +33,5 @@ function createIcon(classes) {
   icon.className = classes;
   return icon;
 }
+
+itemForm.addEventListener("submit", addItem);
